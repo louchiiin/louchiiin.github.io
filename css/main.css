@@ -28,3 +28,15 @@
     display: block;
     margin: 0 auto;
 }
+
+.carousel_label1,
+.carousel_title {
+    color: black;
+}
+
+
+/* override bootstrap existing class color */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%);
+}
