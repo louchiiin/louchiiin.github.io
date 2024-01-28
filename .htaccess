@@ -1,4 +1,15 @@
 RewriteEngine On
 
+# Exclude specific folders from the rewrite rules
+RewriteCond %{REQUEST_URI} !^/css/
+RewriteCond %{REQUEST_URI} !^/assets/
+RewriteCond %{REQUEST_URI} !^/js/
+
+# Exclude the specific path from the rewrite rules
+RewriteCond %{REQUEST_URI} !^/louchiiin\.github\.io/website/
+
+# Apply the general rule only if the request is not for an existing file
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^\.]+)$ $1.php [NC,L] 
+
+# Rewrite URLs to append .php if the file does not exist
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
