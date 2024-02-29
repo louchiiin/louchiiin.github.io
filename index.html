@@ -28,6 +28,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#education">Education/Certification</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#work-experience">Work Experience</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#skills">Skills</a></li>
@@ -61,8 +62,48 @@
                 </div>
             </div>
         </header>
+        <!-- Portfolio -->
+        <section class="page-section bg-secondary portfolio" id="portfolio">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-light mb-0">Portfolio</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+
+                <h5 class=" text-center text-light mb-5"><i>Click links below!</i></h5>
+                <div class="row justify-content-center">
+                    <div class="portfolio-item col-md-4 mb-5">
+                        <a class="portfolio-text-item" href="https://docs.google.com/spreadsheets/d/1Jscaaw0ouMjnFIQHpvuIUdB-ldoMIsWtehi401L8niA/edit#gid=0" target="_blank">
+                            <img class="portfolio_img_1" src="assets/img/portfolio/google_sheets.png" alt="google_sheets">
+                            <h3 class="mt-5">Sample Test Case</h3>
+                        </a>
+                    </div>
+
+                    <div class="portfolio-item col-md-4 mb-5">
+                        <a class="portfolio-text-item" href="https://github.com/louchiiin/SimpleAutomationScript" target="_blank">
+                            <img class="portfolio_img_2" src="assets/img/portfolio/cucumber.png" alt="cucumber">
+                            <h5 class="mt-5"> Simple Automation Script - Cucumber Framework / BDD / Selenium / Java </h5>
+                        </a>    
+                    </div>
+
+                    <div class="portfolio-item col-md-4 mb-5">
+                        <a class="portfolio-text-item" href="https://docs.google.com/spreadsheets/d/1Jscaaw0ouMjnFIQHpvuIUdB-ldoMIsWtehi401L8niA/edit#gid=1059231833" target="_blank">
+                            <img class="portfolio_img_1" src="assets/img/portfolio/google_sheets.png" alt="google_sheets">
+                            <h3 class="mt-5">Bug Reporting</h3>
+                        </a>
+                    </div>
+                    
+                </div>
+    
+            </div>
+        </section>
+
         <!-- Education/Certification Section -->
-        <section class="page-section bg-secondary portfolio" id="education">
+        <section class="page-section bg-primary education" id="education">
             <div class="container">
                 <!-- Education Section Heading-->
                 <h2 class="page-section-heading text-center text-uppercase text-light mb-0">Education / Certification</h2>
@@ -72,9 +113,9 @@
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
-                <!-- Portfolio Grid Items-->
+                <!-- Education Grid Items-->
                 <div class="row justify-content-center">
-                    <!-- Portfolio Item 1-->
+                    <!-- Education Item 1-->
                     <div class="col-md-5">
                         <div class="card border-0">
                             <div class="card-body text-center">
@@ -106,7 +147,7 @@
         </section>        
 
         <!-- Work Experience Section-->
-        <section class="page-section portfolio" id="work-experience">
+        <section class="page-section education" id="work-experience">
             <div class="container">
                 <!-- Work Experience Section Heading-->
                 <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Work Experience</h2>
@@ -116,13 +157,13 @@
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
-                <!-- Portfolio Grid Items-->
+                <!-- Education Grid Items-->
                 <div class="row justify-content-center">
-                    <!-- Portfolio Item 1-->
+                    <!-- Education Item 1-->
                     <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                        <div class="education-item mx-auto" data-bs-toggle="modal" data-bs-target="#educationModal1">
+                            <div class="education-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="education-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
                             <img class="img-fluid mx-auto" src="assets/img/portfolio/gsc_logo.png" alt="..." />
                         </div>
@@ -135,11 +176,11 @@
                             </span>
                         </div>
                     </div>
-                    <!-- Portfolio Item 2-->
+                    <!-- Education Item 2-->
                     <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                        <div class="education-item mx-auto" data-bs-toggle="modal" data-bs-target="#educationModal2">
+                            <div class="education-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="education-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/aaisi_logo.jpg" alt="..." />
                         </div>
@@ -152,11 +193,11 @@
                             </span>
                         </div>
                     </div>
-                    <!-- Portfolio Item 3-->
+                    <!-- Education Item 3-->
                     <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                        <div class="education-item mx-auto" data-bs-toggle="modal" data-bs-target="#educationModal3">
+                            <div class="education-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="education-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/fdc_logo.png" alt="..." />
                         </div>
@@ -169,11 +210,11 @@
                             </span>
                         </div>
                     </div>
-                    <!-- Portfolio Item 4-->
+                    <!-- Education Item 4-->
                     <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                        <div class="education-item mx-auto" data-bs-toggle="modal" data-bs-target="#educationModal4">
+                            <div class="education-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="education-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/fdc_logo.png" alt="..." />
                         </div>
@@ -271,9 +312,9 @@
         <div class="copyright py-4 text-center text-white">
             <div class="container"><small>Copyright &copy; Louch</small></div>
         </div>
-        <!-- Portfolio Modals-->
-        <!-- Portfolio Modal 1-->
-        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+        <!-- Education Modals-->
+        <!-- Education Modal 1-->
+        <div class="education-modal modal fade" id="educationModal1" tabindex="-1" aria-labelledby="educationModal1" aria-hidden="true">
             <div class="modal-dialog modal-xl">
                 <div class="modal-content">
                     <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
@@ -281,17 +322,17 @@
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">QA Engineer - Intern</h2>
+                                    <!-- Education Modal - Title-->
+                                    <h2 class="education-modal-title text-secondary text-uppercase mb-0">QA Engineer - Intern</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
                                         <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
-                                    <!-- Portfolio Modal - Image-->
+                                    <!-- Education Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/gsc_logo.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
+                                    <!-- Education Modal - Text-->
                                     <p class=" text-secondary text-uppercase mb-4">
                                         Gurango Software Corporation
                                         <br>
@@ -300,7 +341,7 @@
                                         </span>
                                     </p>
                                     
-                                    <div class="col-md-6 mb-5 d-flex mx-auto portfolio-item-list">
+                                    <div class="col-md-6 mb-5 d-flex mx-auto education-item-list">
                                         <ul>
                                             <li>Assigned in HCM Project</li>
                                             <li>Creating Test Case in HCM Timekeeping / Payroll</li>
@@ -320,8 +361,8 @@
                 </div>
             </div>
         </div>
-        <!-- Portfolio Modal 2-->
-        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
+        <!-- Education Modal 2-->
+        <div class="education-modal modal fade" id="educationModal2" tabindex="-1" aria-labelledby="educationModal2" aria-hidden="true">
             <div class="modal-dialog modal-xl">
                 <div class="modal-content">
                     <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
@@ -329,17 +370,17 @@
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Quality Assurance Engineer</h2>
+                                    <!-- Education Modal - Title-->
+                                    <h2 class="education-modal-title text-secondary text-uppercase mb-0">Quality Assurance Engineer</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
                                         <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
-                                    <!-- Portfolio Modal - Image-->
+                                    <!-- Education Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/aaisi_logo.jpg" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
+                                    <!-- Education Modal - Text-->
                                     <p class=" text-secondary text-uppercase mb-4">
                                         Alsons/AWS Information Systems, Inc.: AAISI
                                         <br>
@@ -348,7 +389,7 @@
                                         </span>
                                     </p>
                                     
-                                    <div class="col-md-10 mb-5 d-flex mx-auto portfolio-item-list">
+                                    <div class="col-md-10 mb-5 d-flex mx-auto education-item-list">
                                         <ul>
                                             <li>Deployed at Accenture Cebu as a Software Test Engineer</li>
                                             <li>Crafted and enhanced test cases, employing meticulous strategies to enhance the efficacy of manual software testing and ensure comprehensive coverage.</li>
@@ -368,8 +409,8 @@
                 </div>
             </div>
         </div>
-        <!-- Portfolio Modal 3-->
-        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
+        <!-- Education Modal 3-->
+        <div class="education-modal modal fade" id="educationModal3" tabindex="-1" aria-labelledby="educationModal3" aria-hidden="true">
             <div class="modal-dialog modal-xl">
                 <div class="modal-content">
                     <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
@@ -377,17 +418,17 @@
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Quality Assurance Web/Application Tester</h2>
+                                    <!-- Education Modal - Title-->
+                                    <h2 class="education-modal-title text-secondary text-uppercase mb-0">Quality Assurance Web/Application Tester</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
                                         <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
-                                    <!-- Portfolio Modal - Image-->
+                                    <!-- Education Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/fdc_logo.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
+                                    <!-- Education Modal - Text-->
                                     <p class=" text-secondary text-uppercase mb-4">
                                         Forty Degrees Celsius Inc.
                                         <br>
@@ -396,7 +437,7 @@
                                         </span>
                                     </p>
                                     
-                                    <div class="col-md-10 mb-5 d-flex mx-auto portfolio-item-list">
+                                    <div class="col-md-10 mb-5 d-flex mx-auto education-item-list">
                                         <ul>
                                             <li>Devised precise and efficient test scripts for implementation within the testing phase.</li>
                                             <li>Authored and fine-tuned test cases to enhance the success of manual software testing through systematic and comprehensive methodologies.</li>
@@ -416,8 +457,8 @@
                 </div>
             </div>
         </div>
-        <!-- Portfolio Modal 4-->
-        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4" aria-hidden="true">
+        <!-- Education Modal 4-->
+        <div class="education-modal modal fade" id="educationModal4" tabindex="-1" aria-labelledby="educationModal4" aria-hidden="true">
             <div class="modal-dialog modal-xl">
                 <div class="modal-content">
                     <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
@@ -425,17 +466,17 @@
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Android Developer</h2>
+                                    <!-- Education Modal - Title-->
+                                    <h2 class="education-modal-title text-secondary text-uppercase mb-0">Android Developer</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
                                         <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
-                                    <!-- Portfolio Modal - Image-->
+                                    <!-- Education Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/fdc_logo.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
+                                    <!-- Education Modal - Text-->
                                     <p class=" text-secondary text-uppercase mb-4">
                                         Forty Degrees Celsius Inc.
                                         <br>
@@ -444,7 +485,7 @@
                                         </span>
                                     </p>
                                     
-                                    <div class="col-md-10 mb-5 d-flex mx-auto portfolio-item-list">
+                                    <div class="col-md-10 mb-5 d-flex mx-auto education-item-list">
                                         <ul>
                                             <li>Conceptualize, develop, and rigorously test functional Android applications in accordance with defined specifications.</li>
                                             <li>Leverage core Java programming principles to architect robust solutions.</li>

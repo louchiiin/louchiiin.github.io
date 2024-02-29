@@ -10995,7 +10995,7 @@ html {
     font-size: 1.5rem;
   }
 }
-.portfolio .portfolio-item {
+.education .education-item {
   cursor: pointer;
   position: relative;
   display: block;
@@ -11003,7 +11003,7 @@ html {
   border-radius: 0.5rem;
   overflow: hidden;
 }
-.portfolio .portfolio-item .portfolio-item-caption {
+.education .education-item .education-item-caption {
   position: absolute;
   top: 0;
   left: 0;
@@ -11011,30 +11011,30 @@ html {
   opacity: 0;
   background-color: rgba(26, 188, 156, 0.9);
 }
-.portfolio .portfolio-item .portfolio-item-caption:hover {
+.education .education-item .education-item-caption:hover {
   opacity: 1;
 }
-.portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
+.education .education-item .education-item-caption .education-item-caption-content {
   font-size: 1.5rem;
 }
 
-.portfolio-modal .btn-close {
+.education-modal .btn-close {
   color: #1abc9c;
   font-size: 2rem;
   padding: 1rem;
 }
 
 
-.portfolio-item-list {
+.education-item-list {
   text-align: left;
 }
 
-.portfolio-modal .portfolio-modal-title {
+.education-modal .education-modal-title {
   font-size: 2.25rem;
   line-height: 2rem;
 }
 @media (min-width: 992px) {
-  .portfolio-modal .portfolio-modal-title {
+  .education-modal .education-modal-title {
     font-size: 3rem;
     line-height: 2.5rem;
   }
@@ -11050,4 +11050,22 @@ html {
 
 .copyright {
   background-color: #1a252f;
+}
+
+.portfolio_img_1 {
+  width: 150px;
+  height: 180px;
+}
+
+.portfolio_img_2 {
+  width: 380px;
+  height: 150px;
+}
+
+.portfolio-item {
+  text-align: center;
+}
+
+.portfolio-text-item {
+  text-decoration: none;
 }
